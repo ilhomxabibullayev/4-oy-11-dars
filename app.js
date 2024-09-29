@@ -14,11 +14,12 @@ console.log(newarr);
 
 const text = 'George Raymond Richard Martin';
 
-const newtext = text.split(function name(i) {
-    return i.charAt(1)
-})
+let a = text.charAt(0);
+let b = text.charAt(7);
+let c = text.charAt(15);
+let d = text.charAt(23);
 
-console.log(newtext);
+console.log(a, b, c, d)
 
 // 7 masala
 
